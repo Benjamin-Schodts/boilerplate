@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Node boilerplate workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjamin-Schodts/boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "workspace"
+  ],
+  "author": "MrGrunty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjamin-Schodts/boilerplate/issues"
+  },
+  "homepage": "https://github.com/Benjamin-Schodts/boilerplate#readme"
+}
