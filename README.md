@@ -1,0 +1,2 @@
+# workspace
+Node boilerplate workspace
