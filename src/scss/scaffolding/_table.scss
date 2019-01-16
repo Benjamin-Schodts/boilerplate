@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Scaffolding - Table
+   ========================================================================== */
+
+table {
+    border-collapse: collapse;
+}
+
+.table__container {
+    @media (max-width: $screen-mobile) {
+        width: 100% !important;
+    }
+}
+
+#backgroundTable {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+
+    line-height: 100% !important;
+}

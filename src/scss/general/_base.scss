@@ -1,0 +1,25 @@
+/* ==========================================================================
+   General - Base
+   ========================================================================== */
+
+html {
+    background-color: $white;
+}
+
+body {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+
+    background: $white;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.paragraph {
+    color: #FF0000;
+    font-weight: 900;
+    transform: translate3d(50deg);
+    transition: all .4s ease;
+}

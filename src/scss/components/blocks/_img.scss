@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Components - Blocks - img
+   ========================================================================== */
+
+img {
+    display: block;
+    height: auto;
+
+    line-height: 100%;
+    text-decoration: none;
+
+    border: none;
+
+    outline: none;
+}
+
+.image--full-width {
+    @media (max-width: $screen-mobile) {
+        width: 100% !important;
+    }
+}

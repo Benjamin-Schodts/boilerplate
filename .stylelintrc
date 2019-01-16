@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-rational-order"
+    ],
+    "rules": {
+        "indentation": 4,
+        "max-empty-lines": 2,
+        "comment-empty-line-before": null,
+        "color-named": "never",
+        "number-leading-zero": "never",
+        "length-zero-no-unit": true,
+        "declaration-bang-space-after": "never",
+        "declaration-bang-space-before": "always",
+        "declaration-block-no-duplicate-properties": true,
+        "declaration-empty-line-before": null,
+        "selector-list-comma-newline-after": "always",
+        "block-opening-brace-space-before": "always",
+        "at-rule-empty-line-before": null,
+        "selector-pseudo-element-colon-notation": "single",
+        "color-hex-case": "upper",
+        "color-hex-length": "long",
+        "block-no-empty": null,
+        "rule-empty-line-before": [
+            "always-multi-line", {
+                except: ["first-nested"],
+                ignore: ["after-comment"]
+            }
+        ],
+        "comment-whitespace-inside": null,
+        "max-nesting-depth": 3
+    }
+}

@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Scaffolding - td
+   ========================================================================== */
+
+td {
+    border-collapse: collapse;
+}
+
+.table__columns--one {
+    @media (max-width: $screen-mobile) {
+        display: block !important;
+        width: 100% !important;
+    }
+}
+
+.table__columns--two {
+    @media (max-width: $screen-mobile) {
+        width: 50% !important;
+    }
+}
