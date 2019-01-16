@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "Node boilerplate workspace",
   "scripts": {
-    "webpack:dev": "webpack --watch",
-    "webpack:prod": "webpack -p",
-    "webpack:server": "webpack-dev-server --open"
+    "webpack:dev": "webpack --watch --config webpack.dev.babel.js",
+    "webpack:prod": "webpack --config webpack.prod.babel.js",
+    "webpack:server": "webpack-dev-server --open --config webpack.dev.babel.js"
   },
   "repository": {
     "type": "git",
@@ -51,6 +51,7 @@
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
     "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1",
     "webpack-notifier": "^1.7.0"
   }
 }

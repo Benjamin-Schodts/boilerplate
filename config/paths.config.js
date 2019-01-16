@@ -2,7 +2,7 @@ module.exports = {
     cradle: {
         images: {
             src: './src/img/',
-            dest: 'img/'
+            dest: './dist/img/'
         },
         css: {
             entry: './src/scss/style.scss',
