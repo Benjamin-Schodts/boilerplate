@@ -3,7 +3,7 @@ import merge from 'webpack-merge';
 import path from 'path';
 
 import common from './webpack.common.babel';
-import paths from './config/paths.config';
+import paths from './webpack.paths';
 
 // Webpack Configuration
 module.exports = merge(common, {

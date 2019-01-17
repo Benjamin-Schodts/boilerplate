@@ -9,7 +9,7 @@ import path from 'path';
 import StyleLintPlugin from 'stylelint-webpack-plugin';
 import WebpackNotifierPlugin from 'webpack-notifier';
 
-import paths from './config/paths.config';
+import paths from './webpack.paths';
 
 // Webpack Configuration
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: multi(
@@ -29,6 +29,7 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
+                    'style-loader',
                     MiniCssExtractPlugin.loader,
                     'css-loader',
                     {

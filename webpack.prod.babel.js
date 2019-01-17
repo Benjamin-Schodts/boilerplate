@@ -1,7 +1,6 @@
 // Imports
 import merge from 'webpack-merge';
 import ImageminPlugin from 'imagemin-webpack-plugin';
-import TerserPlugin from 'terser-webpack-plugin';
 
 import common from './webpack.common.babel';
 
